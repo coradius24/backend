@@ -50,7 +50,7 @@
     }
   ],
 
-  "rewrites": [
+  "routes": [
     {
       "src": "/(.*)",
       "dest": "src/main.ts",
