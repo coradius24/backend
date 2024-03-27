@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": ["mail/templates/**/*", "pdf/assets/fonts/**/*",       "notification/upspot-mvp-pwa-firebase-adminsdk-sjeb3-490e3f3272.json"
+    ], 
+    "watchAssets": true 
+  }
+
+}
