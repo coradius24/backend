@@ -9,11 +9,9 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule, {  
   cors: {
     origin:true,
-    //  ['http://dev.upspotlimited.com:3000', 'http://upspotlimited.com:3000', 'http://localhost:3000', 'http://upspotlimited.com',  'https://upspotlimited.com', 'https://upspot-academy-client.vercel.app',
-    // 'https://www.upspotlimited.com', 'http://www.upspotlimited.com',  'https://new.upspotacademy.com', 'http://new.upspotacademy.com', 'http://www.new.upspotacademy.com', 'https://www.new.upspotacademy.com', 'upspotacademy.com', 'https://upspotacademy.com', 'https://www.upspotacademy.com', 'https://uply.pro', 'https://getyourtools.app'],
     credentials: true, 
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
-    exposedHeaders: ['customFileName']
+    // exposedHeaders: ['customFileName']
   },
  });
   const config = new DocumentBuilder()
